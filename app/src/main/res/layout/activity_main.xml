@@ -17,11 +17,20 @@
             android:layout_height="wrap_content"
            android:src="@drawable/love"/>
 
-
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Regine"/>
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: Regine Pineda"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+
 
     </LinearLayout>
 </LinearLayout>
