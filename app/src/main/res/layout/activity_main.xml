@@ -7,12 +7,13 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:background="@color/colorAccent">
+    android:background="@color/blue">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -24,14 +25,17 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_gravity="center">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Name: Regine Pineda"
                 android:layout_marginLeft="20dp"
                 android:textSize="20dp"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="20dp"
+                android:background="@color/lightblue"/>
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -39,7 +43,8 @@
                 android:text="Address: 116 Sta.Ines, Manaoag, Pangasinan"
                 android:layout_marginLeft="20dp"
                 android:textSize="20dp"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="20dp"
+                android:background="@color/lightblue"/>
 
         </LinearLayout>
 
@@ -47,40 +52,46 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
             android:text="PROFILE"
-            android:textSize="45dp"
+            android:textSize="25dp"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"/>
+            android:layout_marginLeft="15dp"
+            android:background="@color/darkblue" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="110dp"
             android:text="SETTING"
-            android:textSize="44dp"
+            android:textSize="25dp"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"/>
+            android:layout_marginLeft="15dp"
+            android:background="@color/darkblue"/>
     </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@color/lightblue">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.”"
+                android:layout_width="180dp"
+                android:layout_height="210dp"
+                android:text="“You only live once, but if you do it right, once is enough.”"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:gravity="center"/>
 
 
 
